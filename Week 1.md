@@ -9,6 +9,7 @@ This week's tutorial focused on using VirtualBox to create and manage virtual ma
 1. Create a new project named GNS3-Intro-<studentid>, replacing with your actual student ID number, e.g., GNS-Intro-12345678.
    
    For this activity, I created a project called 'GNS3 Intro'. The link to the project is below.
+   
    [GNS3 Project](project_files/GNS-Intro-12294489.gns3project)
    
 3. Screenshot of the network
