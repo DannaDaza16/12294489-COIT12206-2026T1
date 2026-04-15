@@ -81,7 +81,7 @@ The objective of this activity is to observe how dynamic routing is set up and h
 
    And the table on FRR2
 
-    ![OSPF-Route-FF2](images/OSPF-frr2-routes-12294489.png)
+    ![OSPF-Route-Frr2](images/OSPF-frr2-routes-12294489.png)
 
 5. Pending
 
