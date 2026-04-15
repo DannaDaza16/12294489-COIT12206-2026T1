@@ -50,7 +50,61 @@ The aim of this week is to learn how to view routing tables and enable forwardin
    ![Ping](images/View-routes-12294489-ping.png)
 
 
+## Activity 2 
 
+The objective of this activity is to observe how dynamic routing is set up and how it handles network changes.
+
+1. Exported project, e.g., OSPF-Basics-<studentid>.gns3project
+
+   For this step, I import the OSPF template and duplicate it as 'OSPF Basics - 12294489 - Project.gns3projects'. The link to the project is below.
+
+   [GNS3-OSPF-Project](project_files/OSPF-Basics-12294489-Project.gns3project)
+
+2. Screenshot of the network
+
+  See the OSPF network in the screenshot below. 
+
+   ![OSPF-Network](images/OSPF-basics-12294489-network.png)
+
+   
+3. Output (screenshot or copy-and-paste) showing neigbour routers of FRR1
+
+   The output of the 'show ip ospf neighbor' command on the FRR1 console displays its neighbouring routers. The 'Full/DR' state confirms that OSPF adjacency has been successfully established with neighbouring routers (see screenshot below).
+
+   ![OSPF-Neighbor](images/OSPF-frr-neighbor-12294489png.png)
+
+4. Output showing routing table for two routers.
+
+   The routing table on FRR1, obtained using the show ip ospf route command, shows both directly connected networks and routes learned via OSPF. This confirms that OSPF is correctly exchanging routing information between routers.
+
+   ![OSPF-Route](images/OSPF-frr-routes-12294489png.png)
+
+   And the table on FRR2
+
+    ![OSPF-Route-FF2](images/OSPF-frr2-routes-12294489.png)
+
+5. Pending
+
+6. Output of traceroute commands before and after the link is disconnected (by stopping the NETem node)
+
+   Before:
+   Disconnecting the link, the traceroute command shows the path taken from the source to the destination. The output includes multiple hops, indicating that packets are successfully routed through intermediate routers to reach the destination. See the following screenshot
+
+   ![Traceroute-Before](images/Traceroute-before-12294489.png)
+
+   After:
+   disconnecting the link, the traceroute output changes, showing a different path or failure to reach the destination. This demonstrates how network disruptions affect routing and how OSPF adapts to topology changes. See the following screenshot
+
+   ![Traceroute-After](images/Traceroute-After-12294489.png)
+
+
+   
+
+   
+   
+
+
+  
    
 
 
