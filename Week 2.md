@@ -24,21 +24,49 @@ First, I created a new project called 'Setting IP' and added four Linux host nod
 
     In this step, I configured an IP address for each host. I then used the web console to run the ip addr show command to verify the configuration. The output confirmed that the IP address had been set successfully for each host, as can be seen in the screenshots below.
 
-   Host 1 
+      Host 1 
 
-   ![Host-1](images/Setting-IP-12294489-host1.png).
+      ![Host-1](images/Setting-IP-12294489-host1.png).
    
 
-   Host 2 
+      Host 2 
 
-   ![Host-2](images/Setting-IP-12294489-host2.png).
+      ![Host-2](images/Setting-IP-12294489-host2.png).
 
-   Host 3 
+      Host 3 
 
-   ![Host-3](images/Setting-IP-12294489-host3.png).
+      ![Host-3](images/Setting-IP-12294489-host3.png).
 
-   Host 4 
+      Host 4 
 
-   ![Host-4](images/Setting-IP-12294489-host4.png).
+      ![Host-4](images/Setting-IP-12294489-host4.png).
+
+
+
+## Activity 2 
+
+In this activity, I learnt how to use ping to test whether a device is reachable and to measure delay. 
+
+1.	Screenshot of the console of one host showing the ping command output when no options are used (include the ping command you typed in as well as the summary information).
+   
+    In this step, I used the ping command in the console to test the connection to another host’s IP address. The results confirmed successful connectivity, as shown in the screenshot below.
+
+     ![Ping-Basic](images/Ping-Basics-12294489-simple.png)
+
+2.	Screenshot showing the ping command (and output) to a wrong IP address
+
+    In this step, I used the ping command to test a wrong or non-existent IP address. The output shows that the connection was unsuccessful, as shown below.
+
+     ![Ping-Error](images/Ping-Basics-12294489-Error.png)
+  	
+
+3.	Screenshot showing the ping command (and output) when limiting the count, setting the data size and interval to non-default values
+
+     In this step, I used the ping command to test connectivity to another host. I used the -c 5 option to send 5 request messages, -s to set the data size to 100 bytes, and -i to change the interval between each request to 4 seconds. The output is shown below.
+
+     ![Ping-Options](images/Ping-Basics-12294489-options.png)
+
+
+   
 
 
