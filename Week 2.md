@@ -66,6 +66,11 @@ In this activity, I learnt how to use ping to test whether a device is reachable
 
      ![Ping-Options](images/Ping-Basics-12294489-options.png)
 
+## Reflection 
+
+This week, we focused on learning different ways to assign IP addresses and test connectivity using ping. I found it interesting that there are multiple methods of setting an IP address, such as using the configuration file or the command line. Initially, remembering the commands was a little confusing, but after practising, I started to feel more confident.
+
+The ping activity helped me to understand how devices communicate within a network and how to determine whether something is functioning correctly. I also learnt about concepts such as delay and packet loss, which are important for troubleshooting networks. Overall, this week felt more practical and helped me understand how networking works in real situations.
 
    
 
