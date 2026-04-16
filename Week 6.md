@@ -69,8 +69,11 @@ The aim this week is to see how ARP enables devices to maintain a record of the 
      ![Default-Gateway-IP-Address](images/Default-gateway-12294489-ping.png)
 
      
+## Reflection 
 
-     
+This week's focus on ARP and default gateways helped me to understand how devices find each other within a network. I learnt how ARP maps IP addresses to physical (MAC) addresses, and how the ARP table changes when devices communicate. Seeing how this process happens automatically in the background was interesting.
+
+I also learnt how default gateways allow communication between different networks. Initially, I found it difficult to understand when a gateway is needed, but after conducting some ping tests, this became clearer. Overall, this week helped me to connect previous topics such as IP addressing and routing, and understand how everything works together in a network.
 
    
 
