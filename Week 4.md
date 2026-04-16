@@ -96,6 +96,11 @@ The objective of this activity is to observe how dynamic routing is set up and h
 
    ![Traceroute-After](images/Traceroute-After-12294489.png)
 
+## Reflection 
+
+This week was more challenging as we started working with routing and multiple networks. I learnt how to view routing tables and understand how devices decide where to send data. Initially, it was difficult to read and understand the routing information, but it made more sense after some practice.
+
+The most interesting part was working with dynamic routing using OSPF. I could see how the network automatically updates routes when changes occur, which is really useful in real-world scenarios. Using commands to check routing information also helped me to understand how routers communicate with each other.
 
    
 
