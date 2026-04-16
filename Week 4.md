@@ -83,7 +83,6 @@ The objective of this activity is to observe how dynamic routing is set up and h
 
     ![OSPF-Route-Frr2](images/OSPF-frr2-routes-12294489.png)
 
-5. Pending
 
 6. Output of traceroute commands before and after the link is disconnected (by stopping the NETem node)
 
