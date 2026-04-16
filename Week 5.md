@@ -44,8 +44,12 @@ The aim of this week is to learn how to configure VLANs on a managed switch usin
 
    ![Vlan-Router-Network](images/Vlan-router-12294489-network.png)
 
-   
 
+## Reflection 
+
+This week's topic was VLANs, which I found really interesting because it showed me how a single network can be divided into smaller segments. I learnt how to configure VLANs on a switch, as well as the fact that devices in different VLANs cannot communicate with each other unless properly configured.
+
+Initially, I found it difficult to understand how VLAN tagging works, particularly in relation to trunk ports and router configuration. However, once I had followed the steps and tested the connectivity, everything became clearer. I also learned how routers can be used to enable communication between VLANs, a common feature in real networks. Overall, this week helped me to improve my understanding of network segmentation and security.
    
 
    
