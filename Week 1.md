@@ -19,4 +19,11 @@ This week's tutorial focused on using VirtualBox to create and manage virtual ma
 4. Screenshot of the console showing the IP address
 
    For this step, I configured the IP address of the Linux host node, started the node and opened the console. I then used the 'ip address show' command to display the output and verify that the IP address had been configured correctly, as shown in the following image.
-   ![ip](images/GNS-Intro-12294489-ipaddress.png). 
+   ![ip](images/GNS-Intro-12294489-ipaddress.png).
+
+
+## Reflection 
+
+This week, I focused on preparing for the unit. I installed the necessary software, such as VirtualBox and GNS3, and created a GitHub repository to organise my work. Initially, the number of tools involved made it feel a bit overwhelming, but once everything was installed, I found it easier to understand how they connect together.
+
+I also learnt how to create a basic project in GNS3 and assign an IP address to a host using the configuration file. Although this was a simple task, it helped me to understand the importance of IP addressing in networking.
